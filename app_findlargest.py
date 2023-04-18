@@ -20,7 +20,7 @@ def largest_number(num1, num2, num3):
 # Define the Streamlit app
 def app():
     st.title("Find the largest among three numbers")
-    st.header("Enter any three numbers below")
+    st.subheader("Enter any three numbers below")
     num1 = st.number_input("Enter the first number")
     num2 = st.number_input("Enter the second number")
     num3 = st.number_input("Enter the third number")
