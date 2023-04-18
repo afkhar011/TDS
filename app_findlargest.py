@@ -27,6 +27,6 @@ def app():
 
     if st.button("Find largest number"):
         result = largest_number(num1, num2, num3)
-        st.write("The largest number is:", result)
+        st.header("The largest number is:", result)
      
 app()
